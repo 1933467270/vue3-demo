@@ -1,10 +1,21 @@
+<!--
+ * @Description: 
+ * @Version: 2.0
+ * @Autor: Wsl
+ * @Date: 2020-04-27 17:56:50
+ * @LastEditors: Wsl
+ * @LastEditTime: 2020-05-06 11:54:10
+ -->
+
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link>|
+      <router-link to="/about">About</router-link>|
+      <router-link to="/test">Test</router-link>|
+      <router-link to="/test2">MousePosition</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
