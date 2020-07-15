@@ -4,13 +4,13 @@
  * @Autor: Wsl
  * @Date: 2020-04-27 17:56:50
  * @LastEditors: Wsl
- * @LastEditTime: 2020-07-15 17:57:24
+ * @LastEditTime: 2020-07-15 17:59:57
 --> 
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    hello vue3,测试
+    hello vue3
   </div>
 </template>
 
