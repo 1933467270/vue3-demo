@@ -4,7 +4,7 @@
  * @Autor: Wsl
  * @Date: 2020-04-28 09:21:07
  * @LastEditors: Wsl
- * @LastEditTime: 2020-05-07 16:44:53
+ * @LastEditTime: 2020-07-16 09:41:03
  -->
 <template>
   <div>
@@ -33,7 +33,7 @@ export default {
     //获取上下文
     const { ctx } = getCurrentInstance();
     console.log(ctx);
-    console.log(ctx.$router.currentRoute.value);
+    console.log(ctx.$router.currentRoute);
     console.log(context);
     const count = ref(1); //vue3.0定义变量 ref
     const add = _ => {
